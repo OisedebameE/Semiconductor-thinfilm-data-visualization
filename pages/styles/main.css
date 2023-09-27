@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Heebo:wght@500&family=Noto+Serif&family=Playfair+Display&family=Roboto&display=swap');
+
+* {font-family: 'Noto Serif', serif;}
+
+/* Style the input fields and textareas */
+input[type=text], input[type=email], textarea {
+  background: transparent; /* Make inputs and textareas transparent */
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  color: black;
+  padding: 12px;
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button */
+button[type=submit] {
+  background-color: transparent;
+  color: black;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: goldenrod !important;     /* Vibrant orange to pop on white */
+  font-size: medium;
+  font-weight: 800;
+}
+
+a:hover {
+  color: darkorange !important;     /* Shiny gold for hover effect */
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin: 5% 0;
+  border: none;
+  border-top: 1px solid tan;  /* Teal border for separation */
+}
+
+#MainMenu,
+footer,
+header {
+  display: none;
+}
+
+/* Set a futuristic background image */
+body {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}

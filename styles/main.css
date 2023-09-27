@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Heebo:wght@500&family=Noto+Serif&family=Playfair+Display&family=Roboto&display=swap');
+
+* {font-family: 'Noto Serif', serif;}
+
+
+button[type=submit]:hover {
+  background-color: grey;
+  color: white;
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: goldenrod !important;
+  font-size: medium;
+  font-weight: 800;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: darkorange !important;
+}
+
+/* Style lists and horizontal rules */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin: 5% 0;
+  border: none;
+  border-top: 1px solid tan;
+}
+
+/* Hide specified elements */
+#MainMenu,
+footer,
+header {
+  display: none;
+}
