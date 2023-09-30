@@ -81,7 +81,7 @@ for i in range(int(thinfilmNo)):
     PEC = st.number_input(f"Enter {sampleID} P.E.C (V):", min_value=0.0, max_value=1000.0, step=0.1, value=0.00000,format="%.5f", key=f"PEC_{i}")
     PECs.append(PEC)
 
-    txt_file = st.file_uploader(f"Upload text file for {sampleID}", type=["txt"], key=f"text_file_{i}")
+    txt_file = st.file_uploader(f"Upload text file from uv-spectrophotometer for {sampleID}", type=["txt"], key=f"text_file_{i}")
     text_files.append(txt_file)
 
 Input_data = {
