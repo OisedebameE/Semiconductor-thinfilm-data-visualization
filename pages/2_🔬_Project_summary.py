@@ -47,7 +47,6 @@ if "social_media" not in st.session_state:
     "Github": "https://github.com/OisedebameE",
     "Twitter": "https://twitter.com/imafidon_oe",
     "Medium": "https://medium.com/@Imafidon.E.O",
-    "Substack": "https://imafidon_oe.substack.com/"
     }
 
 # Contact form HTML
@@ -172,9 +171,9 @@ st.write("#")
 st.write("---")
 st.subheader("Personal Project")
 st.write(personal_project)
-st.download_button(label="E1.txt", data=open(textFile1, "rb").read(), file_name="E1", mime="text/csv")
-st.download_button(label="E2.txt", data=open(textFile2, "rb").read(), file_name="E2", mime="text/csv")
-st.download_button(label="E3.txt", data=open(textFile3, "rb").read(), file_name="E3", mime="text/csv")
+st.download_button(label="E1.txt", data=open(textFile1, "rb").read(), file_name="E1", mime="text")
+st.download_button(label="E2.txt", data=open(textFile2, "rb").read(), file_name="E2", mime="text")
+st.download_button(label="E3.txt", data=open(textFile3, "rb").read(), file_name="E3", mime="text")
 st.write("#")
 st.write("## Key findings")
 st.write(optical_properties)
@@ -196,13 +195,13 @@ st.write(current_density)
 st.image(pic5, use_column_width=True)
 st.write("#")
 st.write("Read more about the project")
-st.markdown('[Here](https://medium.com/@Imafidon.E.O/condensed-matter-research-effect-of-varying-deposition-cathodic-potential-on-the-optoelectronic-827d3df710a6)')
+st.markdown('[Here](https://medium.com/@Imafidon.E.O/illuminating-the-path-the-influence-of-deposition-cathodic-potentials-on-copper-selenide-thin-89be2620af48)')
 st.write("---")
 st.write("#")
 st.write(conclusion)
 st.write("#")
 st.write(appendix)
-st.markdown('[Here](https://medium.com/@Imafidon.E.O)')
+st.markdown('[Here](https://medium.com/@Imafidon.E.O/semiconductor-thin-film-analysis-how-i-created-a-streamlit-web-app-to-visualize-and-generate-thin-983fffb0a047)')
 st.write("---")
 col3, col4 = st.columns([1,3])
 with col4:
