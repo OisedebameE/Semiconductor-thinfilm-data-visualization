@@ -30,7 +30,7 @@ with open(css_file) as f:
 st.title("Enter user data")
 
 #Accepting user data
-thinfilmNo = st.number_input("How many thin films?", min_value=0, max_value=100, step=1, value=0, format="%d")
+thinfilmNo = st.number_input("How many semiconductor thin films did you create?", min_value=0, max_value=100, step=1, value=0, format="%d")
 
 sampleIDs = []
 deposition_voltages = []
