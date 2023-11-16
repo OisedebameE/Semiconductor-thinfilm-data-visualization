@@ -12,9 +12,6 @@ st.set_page_config(
 # Define paths to CSS and images
 current_dir = Path(__file__).parent
 css_file = current_dir / "styles" / "main.css"
-textFile1 = current_dir / "assets" / "E1.txt"
-textFile2 = current_dir / "assets" / "E2.txt"
-textFile3 = current_dir / "assets" / "E3.txt"
 pic1 = current_dir / "assets" / "2-1.jpg"
 pic2 = current_dir / "assets" / "Absorbance.png"
 pic3 = current_dir / "assets" / "Reflectance.png"
@@ -171,9 +168,6 @@ st.write("#")
 st.write("---")
 st.subheader("Personal Project")
 st.write(personal_project)
-st.download_button('E1.txt', textFile1)
-st.download_button('E2.txt', textFile2)
-st.download_button('E3.txt', textFile3)
 st.write("#")
 st.write("## Key findings")
 st.write(optical_properties)
